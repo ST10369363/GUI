@@ -1,0 +1,54 @@
+﻿@{
+    ViewData["Title"] = "Lecturer";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Lecturer</h1>
+</div>
+
+<div class="text-center">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lecturer Information Form</title>
+        <style>
+            h2 {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Lecturer Information Form</h2>
+        <form action="/submit" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="surname">Surname:</label><br>
+            <input type="text" id="surname" name="surname" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="modulesLectured">Number of Modules Lectured:</label><br>
+            <input type="number" id="modulesLectured" name="modulesLectured" required><br><br>
+
+            <label for="hoursWorked">Number of Hours Worked:</label><br>
+            <input type="number" id="hoursWorked" name="hoursWorked" required><br><br>
+
+            <label for="hourlyRate">Hourly Rate:</label><br>
+            <input type="number" id="hourlyRate" name="hourlyRate" required><br><br>
+            <input type="number" id="hourlyRate" name="hourlyRate" required><br><br>
+            <input type="number" id="hourlyRate" name="hourlyRate" required><br><br>
+            <input type="number" id="hourlyRate" name="hourlyRate" required><br><br>
+
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</div>

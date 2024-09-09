@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Programme Coordinators and Academic Managers";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Programme Coordinators and Academic Managers</h1>
+   
+</div>
+
+<div class="text-center">
+  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pending Claims</title>
+        
+    </head>
+    <body>
+        <h2>Pending Claims</h2>
+        <label for="appending">Approve appending</label>
+        <br>
+        <input type="number" id="appending" name="appending" required>
+        <br>
+        <br>
+
+        <!-- Example Claim 1 -->
+        <div class="claim">
+            <div class="claim-header">Claim #12345</div>
+            <div class="claim-details">
+                <p>Lecturer: John Doe</p>
+                <p>Claim Date: August 20, 2024</p>
+                <p>Amount: R5,000</p>
+            </div>
+            <div class="claim-actions">
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+                <button class="approve-button">Approve</button>
+                <button class="reject-button">Reject</button>
+                
+            </div>
+        </div>
+
+        <!-- Example Claim 2 -->
+        <div class="claim">
+            <div class="claim-header">Claim #12346</div>
+            <div class="claim-details">
+                <p>Lecturer: Jane Smith</p>
+                <p>Claim Date: August 22, 2024</p>
+                <p>Amount: R4,500</p>
+            </div>
+            <div class="claim-actions">
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+                <button class="approve-button">Approve</button>
+                <button class="reject-button">Reject</button>
+               
+            </div>
+        </div>
+
+        <!-- Additional claims can be added in the same structure -->
+
+    </body>
+</html>
+
+
+</div>
